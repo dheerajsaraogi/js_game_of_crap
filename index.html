@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Game_of_crap/css/reset.css">
+    <link rel="stylesheet" href="../Game_of_crap/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="rules">
+        <fieldset id="fieldset">
+            <legend>
+                <div id="title">Rules:</div>
+            </legend>
+            <p>1st roll:<br> 2, 3, 12 are losers<br> 7, 11 are winners<br> 4, 5, 6, 8, 9, or 10 establish your point for the next roll<br><br> Next roll:<br> 7 and 11 is a loser<br> Making your point (getting the same value as the first roll) is a winner<br>                All other values require another roll of the dice</p>
+        </fieldset>
+    </div>
+    <div class="game">
+        <form>
+            <fieldset>
+                <legend>GAME OF CRAPS</legend>
+                <label id="player" for="player">Player <span id="turn">1</span> turn</label>
+                <br>
+                <label for="points1">Player1 Points</label>
+                <input type="text" id="points1">
+                <label for="points2">Player2 Points</label>
+                <input type="text" id="points2">
+                <br>
+                <label id="dice" for="sum">Dice Sum</label>
+                <input type="text" id="sum">
+                <br>
+                <button id="func">Roll dice</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="vicmsg">
+        <h1>Congratulations Player <span id="winner"></span> Won</h1>
+        <button id="reset">Play Again</button>
+    </div>
+
+    <script src="js/calc.js"></script>
+</body>
+
+</html>

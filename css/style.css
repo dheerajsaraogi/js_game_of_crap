@@ -1,0 +1,64 @@
+fieldset {
+    border: 1px solid black;
+    padding: 10px;
+    width: 600px;
+    font-size: 25px;
+}
+
+legend {
+    text-align: center;
+}
+
+.player {
+    margin: auto;
+}
+
+.rules,
+.game {
+    margin-left: 30%;
+}
+
+input {
+    width: 130px;
+    height: 15px;
+}
+
+button {
+    width: 130px;
+    height: 35px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5%;
+}
+
+#player {
+    margin-left: 223px;
+}
+
+#func {
+    margin-left: 205px;
+    margin-top: 25px;
+}
+
+#dice {
+    margin-left: 150px;
+}
+
+.vicmsg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: -5px 10px black;
+    display: none;
+    z-index: 10;
+    background-color: white;
+}
+
+.vicmsg h1 {
+    padding-top: 18%;
+}
