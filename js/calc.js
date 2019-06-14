@@ -12,10 +12,11 @@
      dice2 = Math.floor(1 + Math.random() * 6);
      sum = dice1 + dice2;
      document.querySelector("#sum").value = sum;
-    
+     console.log(dice1);
+     console.log(dice2);
      switch (dice1) {
          case 1:
-             document.querySelector("#dice01").src = "js_game_of_crap/images/dice1.png";
+             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice1.png";
              break;
          case 2:
              document.querySelector("#dice01").src = "../js_game_of_crap/images/dice2.png";
