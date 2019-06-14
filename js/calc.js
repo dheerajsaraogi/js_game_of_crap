@@ -48,10 +48,12 @@
              if (sum == 7 || sum == 11) {
                  document.querySelector("#winner").innerText = whoseTurn;
                  document.querySelector(".vicmsg").style.display = "block";
+                 document.querySelector("#func").disabled = true;
 
              } else if (sum == 2 || sum == 3 || sum == 12) {
                  document.querySelector("#winner").innerHTML = "1";
                  document.querySelector(".vicmsg").style.display = "block";
+                 document.querySelector("#func").disabled = true;
 
              } else {
                  points = sum;
@@ -63,11 +65,13 @@
              if (sum == 7 || sum == 11) {
                  document.querySelector("#winner").innerText = "1";
                  document.querySelector(".vicmsg").style.display = "block";
+                 document.querySelector("#func").disabled = true;
 
 
              } else if (sum == points) {
                  document.querySelector("#winner").innerText = whoseTurn;
                  document.querySelector(".vicmsg").style.display = "block";
+                 document.querySelector("#func").disabled = true;
 
 
              }
@@ -91,5 +95,6 @@
      document.querySelector("#sum").value = "";
      document.querySelector(".vicmsg").style.display = "none";
      document.querySelector("#turn").innerText = whoseTurn;
+     document.querySelector("#func").disabled = false;
 
  });

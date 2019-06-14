@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient(to right, #303F9F, #3F51B5, #C5CAE9);
-    color: #FFFFFF;
+    background-image: url(../images/b8a781b23f492c1330aa9f4c7c20c93c.jpg);
+    background-size: cover;
     font-weight: 600;
 }
 
@@ -9,7 +9,7 @@ fieldset {
     padding: 10px;
     width: 600px;
     font-size: 25px;
-    background-color: #C5CAE9;
+    background-color: rgba(119, 131, 211, 0.5);
     color: black;
 }
 
@@ -28,6 +28,11 @@ legend {
 .rules,
 .game {
     margin-left: 30%;
+    margin-top: 60px;
+}
+
+.game {
+    margin-top: 40px;
 }
 
 input {
