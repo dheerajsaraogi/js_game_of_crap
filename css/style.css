@@ -90,3 +90,19 @@ button {
 .vicmsg h1 {
     padding-top: 15%;
 }
+
+.dice img {
+    border-radius: 33px;
+}
+
+#dice01 {
+    position: absolute;
+    top: 40%;
+    right: 96px;
+}
+
+#dice2 {
+    position: absolute;
+    top: 40%;
+    left: 96px;
+}
