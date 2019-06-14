@@ -12,47 +12,46 @@
      dice2 = Math.floor(1 + Math.random() * 6);
      sum = dice1 + dice2;
      document.querySelector("#sum").value = sum;
-     console.log(dice1);
-     console.log(dice2);
+    
      switch (dice1) {
          case 1:
-             document.querySelector("#dice01").src = "../Game_of_crap/images/dice1.png";
+             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice1.png";
              break;
          case 2:
-             document.querySelector("#dice01").src = "../Game_of_crap/images/dice2.png";
+             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice2.png";
              break;
          case 3:
-             document.querySelector("#dice01").src = "../Game_of_crap/images/dice3.png";
+             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice3.png";
              break;
          case 4:
-             document.querySelector("#dice01").src = "../Game_of_crap/images/dice4.png";
+             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice4.png";
              break;
          case 5:
-             document.querySelector("#dice01").src = "../Game_of_crap/images/dice5.png";
+             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice5.png";
              break;
          case 6:
-             document.querySelector("#dice01").src = "../Game_of_crap/images/dice6.png";
+             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice6.png";
 
 
      }
      switch (dice2) {
          case 1:
-             document.querySelector("#dice2").src = "../Game_of_crap/images/dice1.png";
+             document.querySelector("#dice2").src = "../js_game_of_crap/images/dice1.png";
              break;
          case 2:
-             document.querySelector("#dice2").src = "../Game_of_crap/images/dice2.png";
+             document.querySelector("#dice2").src = "../js_game_of_crap/images/dice2.png";
              break;
          case 3:
-             document.querySelector("#dice2").src = "../Game_of_crap/images/dice3.png";
+             document.querySelector("#dice2").src = "../js_game_of_crap/images/dice3.png";
              break;
          case 4:
-             document.querySelector("#dice2").src = "../Game_of_crap/images/dice4.png";
+             document.querySelector("#dice2").src = "../js_game_of_crap/images/dice4.png";
              break;
          case 5:
-             document.querySelector("#dice2").src = "../Game_of_crap/images/dice5.png";
+             document.querySelector("#dice2").src = "../js_game_of_crap/images/dice5.png";
              break;
          case 6:
-             document.querySelector("#dice2").src = "../Game_of_crap/images/dice6.png";
+             document.querySelector("#dice2").src = "../js_game_of_crap/images/dice6.png";
 
 
      }
