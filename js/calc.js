@@ -15,7 +15,7 @@
     
      switch (dice1) {
          case 1:
-             document.querySelector("#dice01").src = "../js_game_of_crap/images/dice1.png";
+             document.querySelector("#dice01").src = "js_game_of_crap/images/dice1.png";
              break;
          case 2:
              document.querySelector("#dice01").src = "../js_game_of_crap/images/dice2.png";
